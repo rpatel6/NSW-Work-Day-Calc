@@ -128,7 +128,7 @@ class NSW_Work_Day_CalcTests: XCTestCase {
                         calculator?.anzacDay(in: adjustedStart, and: adjustedEnd),
                         calculator?.queensBirthday(in: adjustedStart, and: adjustedEnd),
                         calculator?.labourDay(in: adjustedStart, and: adjustedEnd)].compactMap{$0}.reduce(0, +)
-        XCTAssertTrue(holidays == 41, "There should be 1214 working day in this interval not \(holidays)")
+        XCTAssertTrue(holidays == 41, "There should be 41 public holidays in this interval not \(holidays)")
     }
 
 }
