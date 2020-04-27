@@ -15,6 +15,7 @@
 		CD5A6F2E2455152700718992 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD5A6F2C2455152700718992 /* LaunchScreen.storyboard */; };
 		CD5A6F392455152700718992 /* NSW_Work_Day_CalcTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A6F382455152700718992 /* NSW_Work_Day_CalcTests.swift */; };
 		CD5A6F442455152700718992 /* NSW_Work_Day_CalcUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A6F432455152700718992 /* NSW_Work_Day_CalcUITests.swift */; };
+		CD5A6F53245515E300718992 /* WorkDayCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD5A6F52245515E200718992 /* WorkDayCalculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CD5A6F3F2455152700718992 /* NSW Work Day CalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NSW Work Day CalcUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD5A6F432455152700718992 /* NSW_Work_Day_CalcUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSW_Work_Day_CalcUITests.swift; sourceTree = "<group>"; };
 		CD5A6F452455152700718992 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD5A6F52245515E200718992 /* WorkDayCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkDayCalculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		CD5A6F152455152500718992 = {
 			isa = PBXGroup;
 			children = (
+				CD5A6F512455158200718992 /* Helper */,
 				CD5A6F202455152500718992 /* NSW Work Day Calc */,
 				CD5A6F372455152700718992 /* NSW Work Day CalcTests */,
 				CD5A6F422455152700718992 /* NSW Work Day CalcUITests */,
@@ -126,6 +129,14 @@
 				CD5A6F452455152700718992 /* Info.plist */,
 			);
 			path = "NSW Work Day CalcUITests";
+			sourceTree = "<group>";
+		};
+		CD5A6F512455158200718992 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				CD5A6F52245515E200718992 /* WorkDayCalculator.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CD5A6F262455152500718992 /* ViewController.swift in Sources */,
+				CD5A6F53245515E300718992 /* WorkDayCalculator.swift in Sources */,
 				CD5A6F222455152500718992 /* AppDelegate.swift in Sources */,
 				CD5A6F242455152500718992 /* SceneDelegate.swift in Sources */,
 			);
