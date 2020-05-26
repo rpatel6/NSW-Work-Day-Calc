@@ -1,5 +1,6 @@
 # NSW-Work-Day-Calc
-
+This app calculates Work days in New South Wales in a given range.
+Start and End dates are excluded from the calculation.
 - I've provided a very trivial interface to use the calculator.
 - Calculator can easily be plugged in to any program.
 - I've also made sure all methods that have tedious logic are testable
